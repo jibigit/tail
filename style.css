@@ -1,9 +1,9 @@
-/* A simple, css only, (some-what) responsive menu */
+
 
 body { 
   background: #ccc;
   font-family: 'Quicksand', helvetica, arial, serif;
-  font-size: 13px;
+  font-size: 16px;
   text-transform: uppercase;
   text-align: center;
 }
@@ -16,7 +16,7 @@ body {
   margin-top: 40px;
 }
 
-/* a little "umph" */
+/* background of nav */
 .decor {
   background: #6EAF8D;
   background: -webkit-linear-gradient(left, #CDEBDB 50%, #6EAF8D 50%);
@@ -27,12 +27,14 @@ body {
   padding: 2px;
   display: block;
 }
-
+/* links color */
 a {
   text-decoration: none;
   color: #fff;
   display: block;
 }
+
+/* delete the subline*/
 
 ul {
   list-style: none;
@@ -44,7 +46,7 @@ li {
   float: left;
 }
 
-/* clear'n floats */
+/* clear floats */
 ul:after {
   clear: both;
 }
@@ -124,7 +126,7 @@ ul.primary li:hover ul {
   background: #fff;
 }
 
-/* keeps the tab background white */
+
 ul.primary li:hover a {
   background: #fff;
   color: #666;
@@ -155,7 +157,7 @@ a {
 }
 
 a:hover {
-	text-decoration: underline; /* souligner les liens au passage souris */
+	text-decoration: underline; /* subline hover */
 }
 
 
